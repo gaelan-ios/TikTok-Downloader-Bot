@@ -23,7 +23,7 @@ bot_token = os.environ.get('7298821634:AAFtsKLlusHPPpdk0lJnlBnZkXgO0I5g6Yg')
 workers = int(os.environ.get('10'))
 api = int(os.environ.get('21211216'))
 hash = os.environ.get('7404d8663463075dfd564027f32810fc')
-chnnl = os.environ.get('krdst0re')
+chnnl = os.environ.get('https://t.me/krdst0re')
 BOT_URL = os.environ.get('instagramg_bot')
 app = Client("JayBee", bot_token=bot_token, api_id=api, api_hash=hash, workers=workers)
 
