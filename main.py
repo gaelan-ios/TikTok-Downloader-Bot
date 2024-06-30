@@ -19,12 +19,12 @@ from progress_bar import progress, TimeFormatter, humanbytes
 from dotenv import load_dotenv
 
 load_dotenv()
-bot_token = os.environ.get('BOT_TOKEN')
-workers = int(os.environ.get('WORKERS'))
-api = int(os.environ.get('API_KEY'))
-hash = os.environ.get('API_HASH')
-chnnl = os.environ.get('CHANNEL_URL')
-BOT_URL = os.environ.get('BOT_URL')
+bot_token = os.environ.get('7298821634:AAFtsKLlusHPPpdk0lJnlBnZkXgO0I5g6Yg')
+workers = int(os.environ.get('10'))
+api = int(os.environ.get('21211216'))
+hash = os.environ.get('7404d8663463075dfd564027f32810fc')
+chnnl = os.environ.get('krdst0re')
+BOT_URL = os.environ.get('instagramg_bot')
 app = Client("JayBee", bot_token=bot_token, api_id=api, api_hash=hash, workers=workers)
 
 
